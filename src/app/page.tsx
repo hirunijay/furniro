@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <main className="flex overflow-hidden">
      <Navigation />
-     <HeroSection />
+     {/* <HeroSection />
      <RangeSection />
      <ProductSection />
      <InspirationSection />
      <CarouselSection />
-     <Footer />
+     <Footer /> */}
     </main>
   )
 }

@@ -13,7 +13,7 @@ export const Logo = () => {
   return (
     <div className='flex flex-row items-center justify-start'>
         <Image src={logoImg} alt='logo' height={32} width={50} />
-        <div className={`${logo.variable} text-3xl font-[700]`}>Furniro</div>
+        <div className={`${logo.variable} text-[28px] font-[700]`}>Furniro</div>
     </div>
   )
 }
