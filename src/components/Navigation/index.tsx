@@ -14,7 +14,7 @@ function Navigation() {
     { text: "Contact", path: "/contact" },
   ];
   return (
-    <div className="flex flex-row w-full h-[80px] mx-14 bg-white sticky justify-between">
+    <div className="flex flex-row justify-between h-[80px] mx-14 bg-white sticky">
       <div className="flex items-center justify-start">
         <Logo />
       </div>
