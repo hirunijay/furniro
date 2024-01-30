@@ -11,7 +11,7 @@ export default function Home() {
      <HeroSection />
      {/* <RangeSection /> */}
      {/* <ProductSection /> */}
-     {/* <InspirationSection /> */}
+     <InspirationSection />
      {/* <CarouselSection /> */}
      {/* <Footer /> */}
     </main>
