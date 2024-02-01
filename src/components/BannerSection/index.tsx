@@ -7,7 +7,7 @@ import BannerImg from "@/assets/images/bannerImage.png";
 
 function BannerSection() {
   return (
-    <div className="flex items-center h-[100vh] bg-[#F2F5FF] px-32">
+    <div className="flex items-center h-[90vh] bg-[#F2F5FF] px-32">
       <div className="flex flex-col flex-1 gap-10 mx-20">
         <h1 className="text-black text-3xl font-bold">Beautify Your Space</h1>
         <p className="text-xl text-[#666]">
@@ -25,7 +25,7 @@ function BannerSection() {
             className="-scale-x-100 object-cover h-[70%] z-50"
             style={{borderTopRightRadius: "50px", borderBottomLeftRadius: "50px"}}
           />
-          <div className="h-[300px] w-[300px] rounded-full bg-[#09513B] absolute right-[250px]"></div>
+          <div className="h-[40vh] w-[40vh] rounded-full bg-[#09513B] absolute right-0 translate-x-1/3"></div>
         </div>        
       </div>
     </div>
