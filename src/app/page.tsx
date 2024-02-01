@@ -2,7 +2,7 @@ import HeroSection from "@/components/HeroSection"
 import RangeSection from "@/components/RangeSection"
 import ProductSection from "@/components/ProductSection"
 import InspirationSection from "@/components/InspirationSection"
-import CarouselSection from "@/components/CarouselSection"
+import BannerSection from "@/components/BannerSection"
 import Footer from "@/components/Footer"
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
      {/* <RangeSection /> */}
      {/* <ProductSection /> */}
      <InspirationSection />
-     {/* <CarouselSection /> */}
+     <BannerSection />
      {/* <Footer /> */}
     </main>
   )
